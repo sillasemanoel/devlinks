@@ -4,6 +4,12 @@
   <img alt="projeto DevLinks" src=".github/preview.png" width="100%">
 </p>
 
+## Tecnologias
+
+- HTML
+- CSS
+- JS
+
 ## Como Utilizar
 
 1. **Clone o Repositório:**

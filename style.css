@@ -25,6 +25,9 @@
 }
 
 body {
+  display: flex;
+  align-items: center;
+  padding-bottom: 80px;
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
   user-select: none;

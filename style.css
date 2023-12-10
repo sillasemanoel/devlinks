@@ -1,11 +1,9 @@
-/* Reset e Box Model */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Cores e Temas */
 :root {
   --text-color: white;
   --bg-url: url(./assets/bg-mobile.jpg);
@@ -26,7 +24,6 @@
   --switch-bg-url: url(./assets/sun.svg);
 }
 
-/* Body e Tipografia */
 body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100vh;
@@ -38,7 +35,21 @@ body * {
   color: var(--text-color);
 }
 
-/* Contêiner */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(142, 142, 142);
+  border-radius: 20px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+
 #container {
   width: 100%;
   max-width: 588px;
@@ -46,7 +57,6 @@ body * {
   padding: 0 24px;
 }
 
-/* Perfil */
 #profile {
   text-align: center;
   padding: 24px;
@@ -63,7 +73,6 @@ body * {
   margin-top: 8px;
 }
 
-/* Interruptor de Tema */
 #switch {
   position: relative;
   width: 64px;
